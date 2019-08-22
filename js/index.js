@@ -1,4 +1,4 @@
-var secretKey = config.KEY; 
+var key = config.SECRET_KEY; 
 
 mapboxgl.accessToken = secretKey;
 var map = new mapboxgl.Map({
